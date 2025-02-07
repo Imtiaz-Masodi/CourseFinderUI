@@ -1,8 +1,7 @@
-# React + Vite
+# CourseFinder Homepage UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Steps to run this project locally
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clone the project
+- Navigate to the Project's root directory and run `npm i` command (It'll install the dependency packages)
+- Once the previous commands executed successfully, run `npm run dev` to start the project locally. It'll start the development server and it logs the url on console [http://localhost:5173/](http://localhost:5173/).
