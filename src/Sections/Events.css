@@ -1,0 +1,26 @@
+.events-container {
+  .event-card {
+    flex-direction: column;
+
+    .event-image {
+      height: 225px;
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .events-container {
+    .event-card:not(:first-child) {
+      height: 220px;
+      flex-direction: row;
+
+      .event-image {
+        height: 100%;
+        width: 200px;
+        border-radius: 10px 0 0 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+div.promotion-item-container.first-child {
+  .divider-lines:first-child {
+    border: unset;
+  }
+}
+
+.promotion-item-container:last-child {
+  .divider-lines:last-child {
+    border: unset;
+  }
+}
